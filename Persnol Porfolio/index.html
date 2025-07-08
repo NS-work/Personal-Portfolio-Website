@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="top">
+        <nav class=" flex max-width">
+            <h1>Portfolio</h1>
+            <div>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section id="about" class=" max-width flex">
+        <div class="left">
+            <p>Hello, My name is <span class="name">Jerry</span><br>and I'm a passionate <strong> <span id="element"></span> </strong><br>with expertise in C Programming Language, C++ and JavaScript. I enjoy building creative, responsive websites and applications that solve real-world problems.</p>
+            <div class="btns flex">
+                 <a href="#" class="btn profile-Btn">GitHub Profile</a> <a href="#" class="btn profile-Btn">Download Resume</a>
+            </div>
+        </div>
+        <div class="right">
+            <img src="\portfolio.jpg" alt="" >
+        </div>
+    </section>
+
+    <section  class=" max-width ">
+        <div class="skill-heading">
+            <div>
+                <h2>My Skills</h2>
+            </div>
+        </div>
+        <div class="skills flex ">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <h4>HTML5</h4>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-css3"></i>
+                <h4>CSS3</h4>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-square-js"></i>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-node"></i>
+                <h4>Node.js</h4>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-c"></i>
+                <h4>C Language</h4>
+            </div>
+            <div class="skill">
+                <i class="">C++</i>
+                <h4>C++</h4>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-github"></i>
+                <h4>Git & GitHub</h4>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-python"></i>
+                <h4>Python</h4>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-react"></i>
+                <h4>React js</h4>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-database"></i>
+                <h4>MySQL</h4>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-swatchbook"></i>
+                <h4>Responsive Design</h4>
+            </div>
+        </div>
+
+    </section>
+
+    <section  class="projects max-width">
+        <div class="project-box">
+            <h2>Projects</h2>
+            <a href="#">
+                <div class="project border">
+                    <h3>E-Commerce website </h3>
+                    <p>Technologies :- HTML, CSS, ans JavaScript.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="project border">
+                    <h3>Calculator</h3>
+                    <p>Technologies :- HTML, CSS, ans JavaScript.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class=" max-width border">
+        <div class="form-box">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/yourformid" method="POST" class="flex">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn btn profile-Btn">Send Message</button>
+            </form>
+
+            <div class=" flex social-links">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="max-width" >
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Web Developer', 'Software Developer', 'Backend Developer'],
+        typeSpeed: 50,
+        });
+  </script>
+</body>
+</html>
+
+
